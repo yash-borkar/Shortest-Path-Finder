@@ -52,7 +52,3 @@ The **Shortest Path Finder** is a dynamic pathfinding visualizer built using **H
    ```bash
    cd Shortest-Path-Finder
 3. **Open index.html in your browser to start the visualizer.**:
-
-## 📚 Demo
-
-
