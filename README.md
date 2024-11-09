@@ -3,6 +3,35 @@
 ## 🚀 Project Overview
 The **Shortest Path Finder** is a dynamic pathfinding visualizer built using **HTML, CSS, and JavaScript**. It offers a real-time demonstration of popular pathfinding algorithms, making it a great tool for understanding how these algorithms work.
 
+## 📸 Demo Images
+<table>
+  <tr>
+    <td>
+      <img src="Images/Home Page.png" alt="Home Page" width="400">
+    </td>
+    <td>
+      <img src="Images/Add Start & End With Obstacles.png" alt="Add Start & End With Obstacles" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Home Page</td>
+    <td align="center">Add Start & End With Obstacles</td>
+  </tr>
+  <tr>
+    <td>
+      <img src="Images/Shortest Path Using Dijkstra.png" alt="Shortest Path Using Dijkstra" width="400">
+    </td>
+    <td>
+      <img src="Images/Shortest Path Using BFS.png" alt="Shortest Path Using BFS" width="400">
+    </td>
+  </tr>
+  <tr>
+    <td align="center">Shortest Path Using Dijkstra</td>
+    <td align="center">Shortest Path Using BFS</td>
+  </tr>
+</table>
+
+
 ## 🌟 Features
 - **🛤️ Pathfinding Visualization**: Watch as the algorithms find the shortest path from a starting point to a destination.
 - **🧮 Algorithms Implemented**:
