@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shortest Path Finder</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Shortest Path Finder</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <header>
-        <h1>Shortest Path Finder</h1>
-        <nav>
-            <button id="set-start">Set Start Point</button>
-            <button id="set-end">Set End Point</button>
-            <button id="add-obstacle">Add Obstacles</button>
-            <select id="algorithm">
-                <option value="dijkstra">Dijkstra</option>
-                <option value="bfs">BFS</option>
-            </select>
-            <button id="find-path">Find Path</button>
-            <button id="reset">Reset Grid</button>
-        </nav>
-    </header>
-    <main>
-        <div id="grid-container"></div>
-    </main>
-    <script src="script.js"></script>
+  <header>
+    <h1>Shortest Path Finder</h1>
+    <nav>
+      <button id="set-start">Set Start Point</button>
+      <button id="set-end">Set End Point</button>
+      <button id="add-obstacle">Add Obstacles</button>
+      <select id="terrain-select">
+        <option value="normal">Normal (1)</option>
+        <option value="grass">Grass (2)</option>
+        <option value="water">Water (5)</option>
+        <option value="mountain">Mountain (10)</option>
+      </select>
+      <button id="set-terrain">Set Terrain</button>
+      <select id="algorithm">
+        <option value="bfs">BFS</option>
+        <option value="dijkstra">Dijkstra</option>
+        <option value="astar">A*</option>
+      </select>
+      <button id="find-path">Find Path</button>
+      <button id="reset">Reset Grid</button>
+      <button id="export">Export JSON</button>
+      <button id="import">Import JSON</button>
+      <input type="file" id="importFile" style="display:none"/>
+    </nav>
+  </header>
+  <main>
+    <div id="grid-container"></div>
+  </main>
+  <script src="script.js"></script>
 </body>
 </html>
