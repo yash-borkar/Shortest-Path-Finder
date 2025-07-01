@@ -35,8 +35,9 @@ The **Shortest Path Finder** is a dynamic pathfinding visualizer built using **H
 ## 🌟 Features
 - **🛤️ Pathfinding Visualization**: Watch as the algorithms find the shortest path from a starting point to a destination.
 - **🧮 Algorithms Implemented**:
-  - **Dijkstra's Algorithm** (Weighted) : Guarantees the shortest path by exploring the least costly path first.
   - **Breadth-First Search** (Unweighted) : Ensures the shortest path in an unweighted grid by exploring all nodes at the present depth before moving on to nodes at the next depth level.
+  - **Dijkstra's Algorithm** (Weighted) : Guarantees the shortest path by exploring the least costly path first.
+  - **A-Star Algorithm** (Heuristic + Weighted): Combines the benefits of Dijkstra’s and Greedy Best-First Search using heuristics (like Manhattan or Chebyshev distance) for faster optimal pathfinding.
 - **💻 Interactive Interface**: Users can set start and end points, add obstacles, and visualize the pathfinding process in real-time.
 
 ## 📚 Project Structure
